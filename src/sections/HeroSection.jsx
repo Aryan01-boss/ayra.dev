@@ -1,5 +1,7 @@
 import React from 'react';
-import './/..//styles//HeroSection.css';
+import '../styles/HeroSection.css';
+import profileAvatar from '../assets/profile_avtar.png';
+import heroBackground from '../assets/hero_background.png';
 
 function HeroSection() {
   return (
@@ -8,7 +10,7 @@ function HeroSection() {
       <div className="left-panel">
         <div className="avatar-block">
           <div className="avatar-image-container">
-            <img src="src/assets/profile_avtar.png" alt="Aryan Kanwadiya" className="avatar-image" />
+            <img src={profileAvatar} alt="Aryan Kanwadiya" className="avatar-image" />
           </div>
           <div className="avatar-info">
             <div>
@@ -43,7 +45,7 @@ function HeroSection() {
           > ↑ </div>
             </div>
           </div>
-          <img src="src/assets/hero_background.png" alt="Main Character" className="main-character-image" />
+          <img src={heroBackground} alt="Main Character" className="main-character-image" />
         </div>
         <div className="digital-text">
            <p className=' para para1'>HEY THERE!</p>
