@@ -1,0 +1,174 @@
+
+
+.contact-section {
+    margin: 3rem auto;
+    padding: 2rem 2.5rem;
+    color: #D3D3D3;
+    text-align: center;
+  }
+  
+  .contact-section h2 {
+    font-size: 3.8rem;
+    font-weight: 900;
+    margin-bottom: 1rem;
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    user-select: none;
+  }
+  
+  .contact-description {
+    font-size: 1.5rem;
+    margin-bottom: 4rem;
+    color: #b0bbb8;
+    font-weight: 400;
+    user-select: none;
+  }
+  
+  
+  .contact-item {
+    font-size: 1.1rem;
+    margin: 0.35rem 0;
+    font-weight: 500;
+    user-select: text;
+  }
+  
+  .contact-item strong {
+    font-weight: 700;
+  }
+  
+  .contact-cta {
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0.75rem 1.8rem;
+    border-radius: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    user-select: none;
+    transition: all 0.3s ease;
+    border: 1px solid white;
+  }
+  
+  .btn .icon {
+    width: 50px;
+    height: 50px;
+    fill: white;
+    user-select: none;
+    margin-right: 30px;
+  }
+  
+  .whatsapp-btn {
+    color: #ffffff;
+    background: linear-gradient(135deg, rgba(34, 197, 94, 0.493), rgba(5, 150, 104, 0.336));
+  }
+
+  
+  .whatsapp-btn:hover,
+  .whatsapp-btn:focus {
+    background-color: #1ebe56;
+    box-shadow: 0 5px 10px rgba(37, 211, 102, 0.9);
+    transform: translateY(-3px);
+  }
+  
+  .email-btn {
+    color: #D3D3D3;
+    background: linear-gradient(135deg, rgba(59, 131, 246, 0.5), rgba(146, 51, 234, 0.39));
+  }
+  
+  .email-btn:hover,
+  .email-btn:focus {
+    background-color: #d84141;
+    box-shadow: 0 5px 10px rgba(255, 92, 92, 0.9);
+    transform: translateY(-3px);
+  }
+  
+  .social-links {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+  }
+  
+  .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #2d2d44;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .social-icon svg {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-icon:hover,
+  .social-icon:focus {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px #9c9c9c5b;
+    background-color: #b4b4b467;
+  }
+  
+  .social-icon.twitter:hover,
+  .social-icon.twitter:focus {
+    background-color: #1da0f250;
+    box-shadow: 0 6px 15px #1da0f23d;
+  }
+  
+  .social-icon.linkedin:hover,
+  .social-icon.linkedin:focus {
+    background-color: #0076b570;
+    box-shadow: 0 6px 15px #0076b559;
+  }
+  
+  .social-icon.instagram:hover,
+  .social-icon.instagram:focus {
+    background-color: #e4405e4f;
+    box-shadow: 0 6px 15px #e4405e59;
+  }
+
+  social-icon.github:hover,
+  .social-icon.github:focus {
+    background-color: #9b9b9b4f;
+    box-shadow: 0 6px 15px #c5c5c559;
+  }
+  
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    .contact-section {
+      margin: 2rem 1rem;
+      padding: 1.5rem 1.8rem;
+    }
+  
+    .contact-cta {
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  
+    .btn {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+  
+  
