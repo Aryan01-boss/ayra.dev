@@ -1,6 +1,6 @@
 import Header from './components/Header'
 import HeroSection from './sections/HeroSection'
-import About from './sections/about'
+import About from "./sections/About";
 import Projects from './sections/Projects'
 import ContactSection from './sections/ContactSection'
 import Footer from './components/Footer'
